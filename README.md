@@ -2,6 +2,7 @@
   tags: gets, variables, strings, interpolation, kids
   languages: ruby
   level: 1
+  type: lab
 ---
 
 ## Mini App
