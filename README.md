@@ -14,9 +14,8 @@ The first thing we need to do is take in user input with the gets method. Rememb
 
 The way `gets` takes in input is important to remember. First, it always takes in strings. If a user enters `10`, gets interprets that as `"10"`. The second thing to remember is that gets also takes in the newline character. When a user types in their input and then hits the `enter` button, gets takes in that enter. Basically your variable storing the input looks like this:
 
-```RUBY
-city = "nyc
-"
+```ruby
+city = "nyc"
 ```
 
 We don't want our string to include that newline character, so we have to use `gets.chomp` to remove that.
