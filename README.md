@@ -20,10 +20,8 @@ city = "nyc
 See how the string doesn't end after the letter 'c', but actually jumps to the next line? That's the newline character that gets kept track of because of the user pressing the `enter` key after typing `nyc`. We don't want our string to include that newline character, so we have to add the `chomp` method to `gets` to remove that. So we'll use `gets.chomp`.
 
 ### The Challenge: A Visit to NYC
-<br>
-<img src="https://s3.amazonaws.com/after-school-assets/greetings.jpg" align="right" width="400" hspace="20">
  You're going to build an application to plan a tourist's visit to NYC. You are going to need to create a new Ruby file by entering `touch trip.rb` into your terminal. Open `trip.rb` with Sublime to start writing your program.
-
+<img src="https://s3.amazonaws.com/after-school-assets/greetings.jpg" align="right" width="400" hspace="20">
 You'll want to ask the user where they would like to stay, what sites they want to visit, what food they want to eat, and how many nights they want to stay. For each question, you'll take in input from the user and store each piece in a variable.
 
 Once you have that input stored, you'll want to use string methods (like upcase, downcase, captialize, etc) to put the input in a proper format. You can always take a look at the Ruby documentation [here](http://www.ruby-doc.org/core-2.1.2/String.html) to learn more about string methods you can use. 
