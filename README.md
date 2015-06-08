@@ -1,10 +1,3 @@
----
-  tags: gets, variables, strings, interpolation, kids
-  languages: ruby
-  level: 1
-  type: lab
----
-
 ## User Input Mini App
 Now that we know about gets-ing and puts-ing, let's build a simple input/output app. The main objective is to create an application that _takes in user input, does something with that input, and then prints out an output_.
 
@@ -20,7 +13,7 @@ city = "nyc
 See how the string doesn't end after the letter 'c', but actually jumps to the next line? That's the newline character that gets kept track of because of the user pressing the `enter` key after typing `nyc`. We don't want our string to include that newline character, so we have to add the `chomp` method to `gets` to remove that. So we'll use `gets.chomp`.
 
 ### The Challenge: A Visit to NYC
- You're going to build an application to plan a tourist's visit to NYC. You are going to need to create a new Ruby file by entering `touch trip.rb` into your terminal. Open `trip.rb` with Sublime to start writing your program.
+ You're going to build an application to plan a tourist's visit to NYC. First, click the `Open in Nitrous` button at the top of Learn. You are going to need to create a new Ruby file by entering `touch trip.rb` into your terminal. Open the file in Nitrous to get started.
 
 You'll want to ask the user where they would like to stay, what sites they want to visit, what food they want to eat, and how many nights they want to stay. For each question, you'll take in input from the user and store each piece in a variable. <img src="https://s3.amazonaws.com/after-school-assets/greetings.jpg" align="right" width="300" hspace="20">
 
