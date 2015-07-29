@@ -1,9 +1,4 @@
----
-  tags: gets, variables, strings, interpolation, kids
-  languages: ruby
-  level: 1
-  type: lab
----
+
 
 ## User Input Mini App
 Now that we know about gets-ing and puts-ing, let's build a simple input/output app. The main objective is to create an application that _takes in user input, does something with that input, and then prints out an output_.
