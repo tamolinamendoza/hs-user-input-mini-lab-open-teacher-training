@@ -3,6 +3,8 @@
 ## User Input Mini App
 Now that we know about gets-ing and puts-ing, let's build a simple input/output app. The main objective is to create an application that _takes in user input, does something with that input, and then prints out an output_.
 
+NOTE: This lab does not have tests, so the `learn` command won't work. Instead, just write your code and test it out manually by running ruby trip.rb in the command line. If the program does what you want it to, you're good to go and can use `learn submit` to submit your work!
+
 ### Gets
 The first thing we need to do is take in user input with the `gets` method. Remember, when an executed Ruby program hits the method `gets`, the program is going to pause and wait for the user to enter text into the terminal.
 
