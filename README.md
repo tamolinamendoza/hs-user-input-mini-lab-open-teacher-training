@@ -26,3 +26,5 @@ Once you have that input stored, you'll want to use string methods (like upcase,
 Your final output should use *string interpolation* to output the data in a full summary of their NYC itinerary. 
 
 Remember, you can execute your code by typing `ruby trip.rb` in terminal from inside the directory of this lab.
+
+<a href='https://learn.co/lessons/hs-user-input-mini-lab' data-visibility='hidden'>View this lesson on Learn.co</a>
